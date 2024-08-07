@@ -14,7 +14,7 @@ body {
 .top-right a {
     margin-left: 10px;
     text-decoration: none;
-    color: #1a73e8;
+    color: #020e1d;
 }
 
 .center {
@@ -22,12 +22,16 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 549px;
+    margin: 10px auto;
+    width: auto;
+    position: relative;
+
 }
 
 .search-bar {
     width: 400px;
-    height: 30px;
+    height: 33px;
     border-radius: 15px;
     padding: 5px 10px;
     border: 1px solid #ccc;
@@ -53,4 +57,12 @@ body {
 
 .blue-button:hover {
     background-color: #165db6;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #020e1d;
+    margin-top: 100px;
+    margin-bottom: -100px;
 }

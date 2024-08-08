@@ -1,6 +1,5 @@
 body {
     font-family: Arial, serif;
-    text-align: center;
     margin: 0;
     padding: 0;
 }
@@ -9,6 +8,8 @@ body {
     position: absolute;
     top: 10px;
     right: 10px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .top-right a {
@@ -22,7 +23,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 549px;
+    min-height: 300px;
     margin: 10px auto;
     width: auto;
     position: relative;
@@ -30,12 +31,16 @@ body {
 }
 
 .search-bar {
-    width: 400px;
+    width: 450px;
     height: 33px;
     border-radius: 15px;
     padding: 5px 10px;
     border: 1px solid #ccc;
     margin-bottom: 10px;
+}
+
+.down-nav {
+    text-align: center;
 }
 
 .search-button {
@@ -44,6 +49,7 @@ body {
     border: 1px solid #ccc;
     background-color: #f8f9fa;
     cursor: pointer;
+    text-align: center;
 }
 
 .search-button:hover {
@@ -62,7 +68,49 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: #020e1d;
-    margin-top: 100px;
-    margin-bottom: -100px;
+    margin-top: 150px;
+    margin-bottom: -90px;
+}
+
+.h1-advanced {
+    font-size: 20px;
+    background: none;
+    color: #f12e1d;
+    margin: 25px 35px;
+}
+
+form {
+    display: block;
+    margin: 25px 35px;
+}
+.form-group {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+label {
+    text-align: right;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+input.txt {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.submit {
+    text-align: right;
+}
+
+input.button {
+    color: #253566;
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
 }
